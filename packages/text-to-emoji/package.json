@@ -1,0 +1,31 @@
+{
+  "name": "textemoji-plugin",
+  "version": "0.0.6",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "cli-ux": "^5.4.4",
+    "got": "^10.5.0",
+    "ink": "^2.7.0"
+  },
+  "files": [
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src",
+    "/yarn.lock"
+  ],
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "textemoji-plugin",
+    "devPlugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
