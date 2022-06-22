@@ -7,7 +7,7 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "cli-ux": "^5.4.4",
-    "got": "^10.5.0",
+    "got": "^11.8.5",
     "ink": "^2.7.0"
   },
   "files": [
